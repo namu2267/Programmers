@@ -4,5 +4,5 @@
 
 // split(), join(), reverse()
 function solution(my_string) {
-  return (answer = my_string.split("").reverse("").join(""));
+  return (answer = my_string.split("").reverse().join(""));
 }
