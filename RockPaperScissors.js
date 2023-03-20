@@ -12,7 +12,7 @@ function solution(rsp) {
     5: 2,
   };
 
-  return [...rsp].map((a) => arr[a]).join("");
+  return [...rsp].map((a) => obj[a]).join("");
 }
 
 //map(),switch문
