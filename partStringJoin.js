@@ -6,7 +6,7 @@
 
 //초기값을 문자열로
 function solution(my_strings, parts) {
-  let result = "";
+  let result = ""; 
 
   for (i = 0; i < parts.length; i++) {
     result += my_strings[i].slice(parts[i][0], parts[i][1] + 1);
